@@ -15,20 +15,21 @@
         <a href="#">Track & Trace</a>
     </div>
     
-
     <header>
-        <h3>Bharat<br>Express</h3>
+        <img src="source/bharatexpress_logo.webp" alt="BharatExpress Logo" class="logo">
+        <h3></h3>
        <nav>
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Services</a>
+        <a href="#tracking">Tracking</a>
        </nav>
     </header>
 
     <main>
         <section class="hero">
             <div class="hero-text">
-                <h1>India’s No.1 Transport <br>  & Logistics Platform</h1>
+                <h1>India’s No.1 Transport <br> & Logistics Platform</h1>
                 <h3>Your Trusted Partner in Transportation </h3>
 
                 <form>
@@ -46,32 +47,59 @@
                         <button type="submit">Book Now</button>
                     </fieldset>
                 </form>
-                
             </div>
+            <div class="hero-image">
+                <img src="source/tk.png" width="60%">
+            </div>
+        </section>
 
-            <div class="hero-video">
-                <video src="source/bharatEx.mp4" autoplay muted>Your browser does not support the video tag.</video>
+        <section class="vehicles">
+            <h2>Our Fleet</h2>
+            <div class="vehicle-list">
+                <div class="vehicle">
+                    <img src="source/trks.png" alt="Truck">
+                    <p>Heavy Trucks</p>
+                </div>
+                <div class="vehicle">
+                    <img src="source/dv.png" alt="Van">
+                    <p>Delivery Vans</p>
+                </div>
+                <div class="vehicle">
+                    <img src="source/bk.png" alt="Bike">
+                    <p>Express Bikes</p>
+                </div>
             </div>
+        </section>
+
+        <section id="tracking">
+            <h2>Track Your Shipment</h2>
+            <form>
+                <input type="text" placeholder="Enter Tracking Number" required>
+                <button type="submit">Track</button>
+            </form>
         </section>
     </main>
 
     <footer>
-        <div><h1>Bharat<br>Express</h1></div>
+        <div>
+            <h1>Bharat<br>Express</h1>
+        </div>
         <div>
             <section>
-                <a href="">Company</a>
-                <a href="">About</a>
-                <a href="">Teams</a>
-                <a href="">Contact</a>
+                <a href="#">Company</a>
+                <a href="#">About</a>
+                <a href="#">Teams</a>
+                <a href="#">Contact</a>
             </section>
             <section>
-                <a href="">Services</a>
-                <a href="">Terms</a>
-                <a href="">Privacy Policy</a>
-                <a href="">Other</a>
+                <a href="#">Services</a>
+                <a href="#">Terms</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Other</a>
             </section>
         </div>
     </footer>
-    
+    <script src="script.js"></script>
 </body>
+
 </html>
